@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "GuestList",
+    "version": "2.4",
+    "slug": "guestlist",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/guestlistsplash.png", 
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+     
+      "icon": "./assets/images/icon.png",
+  
+     
+      "androidMode": "default"
+  
+      
+      
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0 
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "facebookAppId": "343969116414961",
+    "facebookDisplayName": "GuestList",
+    "facebookScheme": "fb343969116414961",
+    "ios": {
+      "supportsTablet": true, 
+      "bundleIdentifier": "com.application.club.guestlist",
+      "buildNumber": "1.0",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "GuestList want to use your location to show near by clubs and to navigate you to clubs location"
+      },
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.509732789680-sv9g984nn242shrd6sf724vo9m4u47n6"
+        }
+
+      }
+    },
+    "android": {
+      "package": "com.application.club.guestlist",
+      "versionCode": 42,
+      "config": {
+
+        "googleSignIn": {
+          "apiKey": "AIzaSyDzkmrAD8gPROLWeR6i_tTvHJTzpdw0tuA",
+          "certificateHash": "FE:EF:5D:0C:51:03:29:3F:5E:3E:A3:B6:38:FD:30:31:DD:12:72:CD"
+        },
+        "googleMaps": {
+          "apiKey": "AIzaSyDzkmrAD8gPROLWeR6i_tTvHJTzpdw0tuA"
+        }
+
+      }
+    }
+  }
+}
